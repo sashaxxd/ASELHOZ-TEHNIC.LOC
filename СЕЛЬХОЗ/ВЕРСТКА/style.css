@@ -1,0 +1,109 @@
+.search {
+    
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); /* Параметры рамки */
+	 border-radius: 6px;
+    min-height: 20px; /* Минимальная высота */
+	background: #FFFFFF;
+	padding: 10px;
+	font-family: "Roboto Light";
+   font-size: 13px;
+   color: #ccc;
+   font-weight: normal;
+   }
+   input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 80%; !* Ширина поля *!*/
+    vertical-align: middle; /* Выравнивание по середине */
+   }
+   input[type="submit"] {
+    width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(images/search_img.png) no-repeat; /* Параметры фона */
+	float: right;
+	cursor: pointer;
+   }
+   
+   
+   #wb_zag_filtr {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   background-color: #DC143C;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   box-sizing: border-box;
+   clear: both;
+   display: table;
+   position: relative;
+   table-layout: fixed;
+   text-align: center;
+   width: 100%;
+}
+#zag_filtr {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px 15px 10px 15px;
+}
+#zag_filtr .row {
+   margin-left: -15px;
+   margin-right: -15px;
+}
+#zag_filtr .col-1 {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+}
+#zag_filtr {
+}
+#zag_filtr .col-1 {
+   float: left;
+}
+#zag_filtr .col-1 {
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   width: 100%;
+}
+#zag_filtr:before,
+#zag_filtr:after,
+#zag_filtr .row:before,
+#zag_filtr .row:after {
+   content: " ";
+   display: table;
+}
+#zag_filtr:after,
+#zag_filtr .row:after {
+   clear: both;
+}
+@media (max-width: 480px) {
+#zag_filtr .col-1 {
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text_filter {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text_filter div {
+   text-align: center;
+}
+#wb_Text_sravnenie{
+	display: none;
+}
